@@ -2,25 +2,25 @@ import java.util.Arrays;
 
 public class TestBasics {
     public static void main(String[] args){
-        Basics tester = new Basics();
-        tester.printNums();
-        tester.printOddNums();
-        tester.sumTo255();
+        Basics test = new Basics();
+        test.printNums();
+        test.printOddNums();
+        test.sumTo255();
         int[] numArr = {5,4,3,2,1};
-        tester.iteratingThroughAnArray(numArr);
-        tester.findMax(numArr);
-        tester.arrayWithOddNumbers();
-        tester.getAverage(numArr);
-        tester.greaterThanY(numArr, 3);
+        test.iteratingThroughAnArray(numArr);
+        test.findMax(numArr);
+        test.arrayWithOddNumbers();
+        test.getAverage(numArr);
+        test.greaterThanY(numArr, 3);
         int[] testNums = {1, 5, 10, -2};
-        tester.squareTheValues(testNums);
-        int[] results = tester.eliminateNegativeNumbers(testNums);
+        test.squareTheValues(testNums);
+        int[] results = test.eliminateNegativeNumbers(testNums);
         System.out.println(Arrays.toString(results));
 
-        double[] results2 = tester.maxMinAvg(testNums);
+        double[] results2 = test.maxMinAvg(testNums);
         System.out.println(Arrays.toString(results2));
 
-        int[] results3 = tester.shifter(testNums);
+        int[] results3 = test.shifter(testNums);
         System.out.println(Arrays.toString(results3));
     }
 }

@@ -52,7 +52,7 @@ public class Basics {
         System.out.println(results);
     }
 
-
+    //Ninja Bonus
     public void getAverage(int[] arr) {
         double avg = 0;
         for(int i = 0; i < arr.length; i++){
@@ -92,7 +92,7 @@ public class Basics {
         return arr;
     }
 
-
+    //Sensei Bonus
     public double[] maxMinAvg(int[] arr){
         int max = arr[0];
         int min = arr[0];
@@ -111,7 +111,7 @@ public class Basics {
         return results;
     }
 
-    
+
     public int[] shifter(int[] arr){
         for(int i=1; i<arr.length; i++){
             arr[i-1]=arr[i];
